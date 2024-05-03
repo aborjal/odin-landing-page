@@ -78,10 +78,15 @@ header {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.header-content2 {
+    display: flex;
+}
+
 .header-content2 img {
-    width: 500px;
+    width: 450px;
     height: auto;
-    
+    flex: 1;
 }
 
 /* MAIN SECTION */
@@ -121,6 +126,11 @@ main {
     text-align: center;
 }
 
+.img-block {
+    width: 140px;
+    height: auto;
+}
+
 .block{
     background-color: darkred;
     width: 60px;
@@ -150,7 +160,7 @@ main {
     justify-content: flex-end;
     margin-right: 40px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 24px;
     color: #858282;
 }
 
@@ -164,10 +174,14 @@ main {
 .section-three .bottom-container {
     background-color: #3882F6;
     display: flex;
-    padding: 30px 10px;
+    padding: 30px 90px;
     gap: 40px;
     align-items: center;
     border-radius: 8px;
+}
+
+.bt-container1 p{
+    margin-top: 5px;
 }
 
 .bottom-container button {

@@ -20,7 +20,7 @@ header, footer {
 header {
     display: flex;
     flex-direction: column;
-    padding: 5px 150px 75px 150px;
+    padding: 5px 200px 75px 200px;
 }
 
 .header-one {
@@ -32,7 +32,7 @@ header {
 
 .header-two {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
@@ -78,17 +78,20 @@ header {
     font-size: 24px;
     color: #F9FAF8;
 }
-
-.dm-block {
+.header-content2 img {
+    width: 500px;
+    height: auto;
     
-    background-color: lightgray;
 }
+
+/* MAIN SECTION */
 
 main {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 
@@ -109,7 +112,6 @@ main {
     display: flex;
     gap: 20px;
     margin: 30px;
-    /* padding: 0px 20px; */
 }
 
 .container-block {
@@ -123,6 +125,7 @@ main {
     background-color: darkred;
     width: 60px;
     height: 60px;
+    margin-bottom: 5px;
 }
 
 .section-two {
@@ -132,7 +135,7 @@ main {
     justify-content: center;
     align-content: center;
     flex: 1;
-    padding: 60px 150px;
+    padding: 80px 240px;
 }
 
 .section-two .quote{
@@ -146,6 +149,9 @@ main {
     display: flex;
     justify-content: flex-end;
     margin-right: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #858282;
 }
 
 .section-three {
@@ -172,6 +178,7 @@ main {
     border-radius: 5px;
 }
 
+/* FOOTER SECTION */
 footer {
     padding: 20px 0px ;
     display: flex;
